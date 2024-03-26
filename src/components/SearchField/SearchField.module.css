@@ -8,6 +8,7 @@
   padding: 4px;
   transition: border-color 0.3s;
   width: 200px;
+  position: relative;
 }
 
 .search-field.focused {
@@ -24,6 +25,8 @@
   min-width: 20px;
   flex-shrink: 0;
   margin-left: 4px;
+  position: absolute;
+  right: 0;
 }
 
 input {
