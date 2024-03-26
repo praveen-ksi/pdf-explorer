@@ -5,7 +5,7 @@
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 4px;
-  padding: 4px 8px;
+  padding: 4px;
   transition: border-color 0.3s;
   width: 200px;
 }
@@ -15,12 +15,15 @@
 }
 
 .search_icon {
-  margin-right: 8px;
+  min-width: 24px;
+  margin-right: 4px;
 }
 
 .clear_icon {
-  margin-left: auto;
   cursor: pointer;
+  min-width: 20px;
+  flex-shrink: 0;
+  margin-left: 4px;
 }
 
 input {

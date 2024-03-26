@@ -21,7 +21,7 @@ export const SearchField: React.FunctionComponent<{ value: string; onValueChange
       </div>
       <input type="text" value={value} disabled={isDisabled} onChange={handleChange} onFocus={() => setIsFocused(true)} onBlur={() => setIsFocused(false)} placeholder="Search..." />
       {value && (
-        <div onClick={handleClear} className={s.cross_icon}>
+        <div onClick={handleClear} className={s.clear_icon}>
           <CrossIcon />
         </div>
       )}

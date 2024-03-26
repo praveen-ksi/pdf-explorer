@@ -20,7 +20,7 @@ To run the PDF Explorer application locally, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/praveen-ksi/pdf-explorer.git`
 2. Navigate to the project directory: `cd pdf-explorer`
-3. Install dependencies: `yarn add`
+3. Install dependencies: `yarn`
 4. Start the development server: `yarn start`
 5. Open your browser and visit `http://localhost:3000` to view the application.
 
