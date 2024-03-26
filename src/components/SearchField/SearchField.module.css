@@ -33,6 +33,7 @@ input {
   border: none;
   outline: none;
   flex: 1;
+  max-width: calc(100% - 60px);
 }
 
 @media screen and (min-width: 768px) {
