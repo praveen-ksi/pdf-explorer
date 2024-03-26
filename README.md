@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+# PDF Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PDF Explorer is a web application that allows users to explore and view PDF files. It provides a simple interface for browsing a list of PDF files and viewing their contents.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **PDF Listing:** Browse a list of available PDF files.
+- **PDF Viewer:** View the selected PDF file within the application.
+- **Responsive Design:** The application is designed to work seamlessly on desktop and mobile devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React:** Frontend library for building user interfaces.
+- **JavaScript:** Programming language used for frontend logic.
+- **CSS:** Styling language for designing the application.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run the PDF Explorer application locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository: `git clone https://github.com/praveen-ksi/pdf-explorer.git`
+2. Navigate to the project directory: `cd pdf-explorer`
+3. Install dependencies: `yarn add`
+4. Start the development server: `yarn start`
+5. Open your browser and visit `http://localhost:3000` to view the application.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **PDF Listing:** Browse the list of PDF files by clicking on them.
+- **PDF Viewer:** View the selected PDF file. Use the navigation controls to zoom in/out and navigate through pages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions are welcome! If you have any suggestions or improvements, please open an issue or submit a pull request.
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
