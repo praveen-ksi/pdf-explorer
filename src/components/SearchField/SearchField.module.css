@@ -1,0 +1,37 @@
+/* SearchField.module.css */
+
+.search-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  transition: border-color 0.3s;
+  width: 200px;
+}
+
+.search-field.focused {
+  border-color: #007bff;
+}
+
+.search_icon {
+  margin-right: 8px;
+}
+
+.clear_icon {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .search-field {
+    width: 400px;
+    padding: 8px;
+  }
+}

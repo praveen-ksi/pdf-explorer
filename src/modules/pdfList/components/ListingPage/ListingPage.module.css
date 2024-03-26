@@ -1,0 +1,41 @@
+.root {
+  background-color: #f1f1f2;
+  min-height: 100vh;
+}
+.btm_container {
+  padding: 8px;
+}
+.success {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+.not_found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding-top: 80px;
+  height: calc(100vh - 80px);
+}
+.no_result_text {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .root {
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+  .btm_container {
+    padding: 8px 0;
+  }
+  .success {
+    justify-content: flex-start !important;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+export const ThumbNailUrls = [
+  "assets/understanding-machine-learning.webp",
+  "assets/understanding-machine-learning.webp",
+  "assets/understanding-machine-learning.webp",
+  "assets/understanding-machine-learning.webp",
+  "assets/introduction-to-machine-learning.webp",
+  "assets/machine-learning-for-dummies.webp",
+  "assets/the-discipline-of-machine-learning.webp",
+  "assets/machine-learning-basics.webp",
+  "assets/misunderstanding-about-machine-learning.webp",
+  "assets/the-fundamental-of-machine-learning.webp",
+  "assets/theoretical-machine-learning.webp",
+  "assets/ultimate-guide-to-machine-learning.webp",
+  "assets/machine-learning-nyu.webp",
+  "assets/lifelong-machine-learning.webp",
+  "assets/hardware-for-machine-learning.webp",
+];

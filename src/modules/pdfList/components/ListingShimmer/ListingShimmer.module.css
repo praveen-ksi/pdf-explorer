@@ -1,0 +1,56 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  margin-bottom: 8px;
+  width: calc(50vw - 12px);
+  flex-shrink: 0;
+  padding: 12px 8px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid whitesmoke;
+  height: 243.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cover_image {
+  height: 150px;
+  width: 120px;
+  background: linear-gradient(-45deg, #eee 40%, #fafafa 50%, #eee 60%);
+  background-size: 300%;
+  background-position-x: 100%;
+  animation: shimmer 1s infinite linear;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.desc {
+  height: 20px;
+  width: 100%;
+  background: linear-gradient(-45deg, #eee 40%, #fafafa 50%, #eee 60%);
+  background-size: 300%;
+  background-position-x: 100%;
+  animation: shimmer 1s infinite linear;
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  to {
+    background-position-x: 0%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .root {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .card {
+    width: calc(25% - 8px);
+    margin: 0;
+  }
+}
